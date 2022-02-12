@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+input {
+    font-family: "Roboto", sans-serif;
+}
+#headerTable {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: white;
+    border-bottom: black ridge 1px;
+}
+
+
+
+.logo {
+    width: 80px;
+}
+main {
+    min-height: 100vh;
+    padding-top: 100px;
+    
+}
+
+nav {
+    margin-right: 16px;
+    
+}
+a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: black;
+}
+video {
+    width: 100%;
+}
+#mainTable {
+    width: 100%;
+}
+#userImage {
+    width: 500px;
+    margin: 16px;
+}
+.bioBox {
+    width: 70%;
+    text-align: left;
+}
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background: gray;
+}
+.footerText {
+    text-align: center;
+    color: white;
+}
+.footerText a {
+    color: white;
+    width: 100%;
+    height: 90px; 
+
+}
+footer {
+    background-color: black;
+    height: 200px;
+    padding-top: 10px;
+    margin: 10px;
+    
+}
+footer a{
+    border: 1px groove rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: bold;
+    
+}
+footer .facebook:hover{
+    color: blue;
+    background: white;
+}
+footer .instagram:hover{
+    color: rgb(174, 0, 255);
+    background: white;
+}
+footer .youtube:hover{
+    color: rgb(255, 0, 13);
+    background: white;
+}
+footer .twitter:hover{
+    color: rgb(26, 154, 240);
+    background: white;
+}
+footer .contact:hover{
+    color: rgb(90, 26, 240);
+    background: white;
+    cursor: none;
+}
