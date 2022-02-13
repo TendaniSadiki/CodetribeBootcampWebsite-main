@@ -41,6 +41,9 @@ a {
     text-decoration: none;
     color: black;
 }
+a:hover {
+    border-bottom: black 1px groove ;
+}
 video {
     width: 100%;
 }
