@@ -1,12 +1,8 @@
 
 main table{
     width: 100%;
-    
 }
-
 main .leftContent{
-    background-color: blue;
-    height: 600px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -36,11 +32,18 @@ main .leftContent button{
     margin: 20px;
     cursor: pointer;
 }
+main .leftContent button:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
 main .rightContent{
-    border: 1px rigde black;
-    height: 600px;
     padding: 8px;
-    background-color: blue;
+    background-color: rgb(52, 177, 199);
+    border-radius: 15px;
+    color: white;
+}
+main .rightContent h3{
+    padding: 10px;
 }
 
 main tr{
