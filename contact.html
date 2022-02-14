@@ -4,7 +4,7 @@
 <head>
     <title>Contact Us</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheeet" href="css/contact.css" > 
+    <link rel="stylesheet" href="css/contact.css" > 
 </head>
 
 <body>
@@ -19,11 +19,11 @@
                 </td>
 
                 <!-- table data which houses our nav bar -->
-                <td align="right">
+                <td width="50%" align="right">
                     <nav>
                         <a href="index.html">Home</a>
                         <a href="about.html">About me</a>
-                        <a href="#">Contact us</a>
+                        <a class="activeStyle" href="#">Contact us</a>
                     </nav>
                 </td>
 
@@ -33,14 +33,40 @@
 
     <main>
         <h1>Contact US</h1>
-
+            <table>
+                <tr>
+                    <td width="60%" colspan="1" align="left" >
+                        <div class="leftContent">
+                            <h2>Send us a message</h2>
+                            <form>
+                                <label for="name">Name</label>
+                                <input type="text" name="fname">
+                                <label for="name">Surname</label>
+                                <input type="text" name="sname">
+                                <label for="name">Email</label>
+                                <input type="email" name="email">
+                                <label for="message">Message</label>
+                            <textarea id="subject" name="message">
+                            </textarea>
+                <button>Send message</button>
+                            </form>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="rightContent">
+                            <h2>right</h2>
+                        </div>
+                    </td>
+                </tr>
+                
+            </table>
     </main>
     <footer>
         <p class="footerText"><a target="_blank" href="https://www.facebook.com/Code-with-Ed-106773891746605" class="facebook">Facebook</a></p>
         <p class="footerText"><a target="_blank" href="https://www.instagram.com/tendani_sadiki/" class="instagram">Instagram</a></p>
         <p class="footerText"><a target="_blank" href="https://www.youtube.com/channel/UCJjvxGqux42T9LQkYmIv7uw" class="youtube">Youtube</a></p>
         <p class="footerText"><a target="_blank" href="https://twitter.com/tendanisadiki16" class="twitter">Twitter</a></p>
-        
+        <p class="footerText"><a target="_blank" class="contact">071 174 1781</a></p>
     </footer>
 
 </body>

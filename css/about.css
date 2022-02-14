@@ -1,6 +1,5 @@
 main table{
-    width: 100%;
-    
+    width: 100%;  
 }
 main h1{
     text-align: center;
@@ -8,18 +7,16 @@ main h1{
 .introContent{
 text-align: center;
 }
-
 main .educationalinfo {
     text-align: center;
 }
 main .myprojects{
     text-align: left;
-    border-right: 1px groove rgb(0, 174, 255);
+    
 }
 main .workingex{
     text-align: center;
     border-right: 1px groove rgb(103, 108, 110)
-
 }
 main .info{
     text-align: center;
@@ -33,13 +30,8 @@ main .personalinfo{
 }
 main table tr td li {
     list-style: none;
-    text-align: center;
-    
-    
-
-    
+    text-align: center;    
 }
-
 .activeStyle{
     border-bottom:1px black groove;
 }
