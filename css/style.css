@@ -57,6 +57,7 @@ video {
 .bioBox {
     width: 70%;
     text-align: left;
+    font-weight: bolder;
 }
 .btn {
     padding-top: 10px;

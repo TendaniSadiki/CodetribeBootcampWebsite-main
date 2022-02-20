@@ -14,6 +14,9 @@ main .myprojects{
     text-align: left;
     
 }
+main #experience{
+    font-weight: bold;
+}
 main .workingex{
     text-align: center;
     border-right: 1px groove rgb(103, 108, 110)
