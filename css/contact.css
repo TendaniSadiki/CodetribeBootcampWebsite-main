@@ -19,12 +19,15 @@ main .leftContent input{
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    font-weight: bolder;
 }
+
 main .leftContent textarea{
     width: 70%;
     height: 150px;
     max-width: 70%;
     max-height: 150px;
+    resize: none;
 }
 main .leftContent button{
     padding: 10px;
@@ -35,6 +38,10 @@ main .leftContent button{
 main .leftContent button:hover{
     color: rgb(255, 255, 255);
     background-color: black;
+}
+main .leftContent button:active{
+    background-color: aqua;
+    transition: 2s;
 }
 main .rightContent{
     padding: 8px;

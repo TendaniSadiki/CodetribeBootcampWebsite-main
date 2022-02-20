@@ -4,7 +4,7 @@
 <head>
     <title>Contact Us</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/contact.css" > 
+    <link rel="stylesheet" href="css/contact.css" >
 </head>
 
 <body>
@@ -38,17 +38,18 @@
                     <td width="60%" colspan="1" align="left" >
                         <div class="leftContent">
                             <h2>Send us a message</h2>
-                            <form>
+                            <form action="https://formspree.io/f/xwkyorea"
+                            method="POST" >
                                 <label for="name">Name</label>
-                                <input type="text" name="fname">
+                                <input type="text" name="name" required id="name">
                                 <label for="name">Surname</label>
-                                <input type="text" name="sname">
+                                <input type="text" name="surname" required id="surname">
                                 <label for="name">Email</label>
-                                <input type="email" name="email">
+                                <input type="email" name="email" required id="email">
                                 <label for="message">Message</label>
-                            <textarea id="subject" name="message">
+                            <textarea id="subject" required name="subject" >
                             </textarea>
-                <button>Send message</button>
+                <button  type="submit" onclick="Submit()" >Send message</button>
                             </form>
                         </div>
                     </td>
@@ -57,6 +58,9 @@
                             <h2>Location</h2>
                             <p>We are open for any Chat.</p>
                             <h3>Address: Gauteng, Roodepoort</h3>
+                            <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.503205751993!2d27.84384131491389!3d-26.132265067398777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e959f4779a56d59%3A0x41c2c40c4108b104!2s46%20Main%20Reef%20Rd%2C%20Princess%2C%20Roodepoort%2C%201724!5e1!3m2!1sen!2sza!4v1645277018170!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
                         </div>
                     </td>
                 </tr>
@@ -64,13 +68,12 @@
             </table>
     </main>
     <footer>
-        <p class="footerText"><a target="_blank" href="https://www.facebook.com/Code-with-Ed-106773891746605" class="facebook">Facebook</a></p>
+        <p class="footerText"><a target="_blank" class="fa fa-facebook" href="https://www.facebook.com/Code-with-Ed-106773891746605" class="facebook">Facebook</a></p>
         <p class="footerText"><a target="_blank" href="https://www.instagram.com/tendani_sadiki/" class="instagram">Instagram</a></p>
         <p class="footerText"><a target="_blank" href="https://www.youtube.com/channel/UCJjvxGqux42T9LQkYmIv7uw" class="youtube">Youtube</a></p>
         <p class="footerText"><a target="_blank" href="https://twitter.com/tendanisadiki16" class="twitter">Twitter</a></p>
         <p class="footerText"><a target="_blank" class="contact">071 174 1781</a></p>
     </footer>
-
+<script src="./index.js"></script>
 </body>
-
 </html>
