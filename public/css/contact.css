@@ -1,0 +1,61 @@
+
+main table{
+    width: 100%;
+}
+main .leftContent{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+main .leftContent h2{
+    text-align: center;
+}
+main .leftContent input{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-weight: bolder;
+}
+
+main .leftContent textarea{
+    width: 70%;
+    height: 150px;
+    max-width: 70%;
+    max-height: 150px;
+    resize: none;
+}
+main .leftContent button{
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+main .leftContent button:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+main .leftContent button:active{
+    background-color: aqua;
+    transition: 2s;
+}
+main .rightContent{
+    padding: 8px;
+    background-color: rgb(52, 177, 199);
+    border-radius: 15px;
+    color: white;
+}
+main .rightContent h3{
+    padding: 10px;
+}
+
+main tr{
+    height: 600px;
+}
+ nav .activeStyle{
+    border-bottom:1px black groove;
+}

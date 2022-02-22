@@ -1,0 +1,42 @@
+main table{
+    width: 100%;  
+}
+main h1{
+    text-align: center;
+}
+.introContent{
+text-align: center;
+}
+main .educationalinfo {
+    text-align: center;
+}
+main .myprojects{
+    text-align: left;
+    
+}
+main #experience{
+    font-weight: bold;
+}
+main .workingex{
+    text-align: center;
+    border-right: 1px groove rgb(103, 108, 110)
+}
+main .info{
+    text-align: center;
+}
+main .info p{
+    color: blue;
+    font-weight: bolder;
+}
+main .personalinfo{
+    border-right: 1px groove rgb(0, 174, 255);
+}
+main table tr td li {
+    list-style: none;
+    text-align: center;    
+}
+.activeStyle{
+    border-bottom:1px black groove;
+}
+
+

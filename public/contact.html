@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css" >
+</head>
+
+<body>
+
+    <header>
+        <table id="headerTable">
+
+            <tr>
+                <!-- table data which houses our logo -->
+                <td>
+                    <img class="logo" src="./assets/imgs/logo.png" alt="">
+                </td>
+
+                <!-- table data which houses our nav bar -->
+                <td width="50%" align="right">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About me</a>
+                        <a class="activeStyle" href="#">Contact us</a>
+                    </nav>
+                </td>
+
+            </tr>
+        </table>
+    </header>
+
+    <main>
+        <h1>Contact US</h1>
+            <table>
+                <tr>
+                    <td width="60%" colspan="1" align="left" >
+                        <div class="leftContent">
+                            <h2>Send us a message</h2>
+                            <form action="https://formspree.io/f/xwkyorea"
+                            method="POST" >
+                                <label for="name">Name</label>
+                                <input type="text" name="name" required id="name">
+                                <label for="name">Surname</label>
+                                <input type="text" name="surname" required id="surname">
+                                <label for="name">Email</label>
+                                <input type="email" name="email" required id="email">
+                                <label for="message">Message</label>
+                            <textarea id="subject" required name="subject" >
+                            </textarea>
+                <button  type="submit" onclick="Submit()" >Send message</button>
+                            </form>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="rightContent">
+                            <h2>Location</h2>
+                            <p>We are open for any Chat.</p>
+                            <h3>Address: Gauteng, Roodepoort</h3>
+                            <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.2338472474735!2d30.049049114774967!3d-23.14745355232168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec67bce9add770d%3A0xd49dca6174ceb16f!2sMuthuhadini%20Combined%20school!5e1!3m2!1sen!2sza!4v1645401717084!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                
+            </table>
+    </main>
+    <footer>
+        <p class="footerText"><a target="_blank" class="fa fa-facebook" href="https://www.facebook.com/Code-with-Ed-106773891746605" class="facebook">Facebook</a></p>
+        <p class="footerText"><a target="_blank" href="https://www.instagram.com/tendani_sadiki/" class="instagram">Instagram</a></p>
+        <p class="footerText"><a target="_blank" href="https://www.youtube.com/channel/UCJjvxGqux42T9LQkYmIv7uw" class="youtube">Youtube</a></p>
+        <p class="footerText"><a target="_blank" href="https://twitter.com/tendanisadiki16" class="twitter">Twitter</a></p>
+        <p class="footerText"><a target="_blank" class="contact">071 174 1781</a></p>
+    </footer>
+<script src="./index.js"></script>
+</body>
+</html>
