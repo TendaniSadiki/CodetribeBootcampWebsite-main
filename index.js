@@ -54,7 +54,7 @@ document.getElementById('project10').innerHTML = projects[9];
 
 //Info for employers
 let employersInfo = {
-    info : "'I'm looking forward to work on any Projects in order to complete my goals and gain more skills, because I'm a well focused person and I always finish what I start."
+    info : "I'm looking forward to work on any Projects in order to complete my goals and gain more skills, because I'm a well focused person and I always finish what I start."
 }
 document.getElementById('info').innerHTML = employersInfo.info;
 
