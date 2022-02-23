@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "tendani-6df36"
+    "default": "tendani-6df36",
+    "default": tendani-6df36.firebaseapp
   }
 }

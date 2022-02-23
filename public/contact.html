@@ -5,6 +5,7 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css" >
+    <link rel="icon" href="./assets/imgs/logo.png" >
 </head>
 
 <body>
@@ -40,15 +41,15 @@
                             <h2>Send us a message</h2>
                             <form action="https://formspree.io/f/xwkyorea"
                             method="POST" >
-                                <label for="name">Name</label>
-                                <input type="text" name="name" required id="name">
-                                <label for="name">Surname</label>
-                                <input type="text" name="surname" required id="surname">
-                                <label for="name">Email</label>
-                                <input type="email" name="email" required id="email">
-                                <label for="message">Message</label>
-                            <textarea id="subject" required name="subject" >
-                            </textarea>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" required id="usersName">
+                            <label for="name">Surname</label>
+                            <input type="text" name="surname" required id="usersSurname">
+                            <label for="name">Email</label>
+                            <input type="email" name="email" required id="usersEmail">
+                            <label for="message">Message</label>
+                        <textarea id="usersSubject" required name="subject" >
+                        </textarea>
                 <button  type="submit" onclick="Submit()" >Send message</button>
                             </form>
                         </div>

@@ -68,3 +68,17 @@ let littleAbout ={
 document.getElementById('username').innerHTML = littleAbout.username;
 document.getElementById('bio').innerHTML = littleAbout.bio;
 document.getElementById('bio2').innerHTML = littleAbout.bio2;
+
+function Submit(){
+let userInfo ={
+    usersName: '',
+    usersSurname:'',
+    usersEmail: '',
+    usersSubject: ''
+}
+document.getElementById('usersName').innerHTML = userInfo.usersName;
+document.getElementById('usersSurname').innerHTML = userInfo.usersSurname;
+document.getElementById('usersEmail').innerHTML = userInfo.usersEmail;
+document.getElementById('usersSubject').innerHTML = userInfo.usersSubject;
+console.log(userInfo)
+}
